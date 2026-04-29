@@ -303,10 +303,6 @@ export default function App() {
             </div>
           </div>
           <div className="flex items-center gap-3">
-            <div className="flex bg-slate-100 p-1 rounded-lg border border-slate-200 mr-4">
-              <button className="px-3 py-1.5 text-xs font-semibold rounded-md text-slate-500 hover:text-slate-700 hover:bg-white hover:shadow-sm transition-all focus:outline-none flex-1">表单视图</button>
-              <button className="px-3 py-1.5 text-xs font-bold rounded-md bg-white shadow-sm text-blue-700 border border-slate-200 transition-all flex-1">可视化构建器</button>
-            </div>
             <button className="px-5 py-2 bg-slate-900 text-white rounded-lg text-sm font-semibold shadow-md hover:bg-slate-800 transition-all flex items-center gap-2">
               <Play className="w-4 h-4 fill-current" /> 发布流程
             </button>
